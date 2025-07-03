@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  metadataBase: new URL('http://localhost:3000'),
+  metadataBase: new URL('https://thankful-plant-0a508e91e.1.azurestaticapps.net'),
   title: `Airdrop`,
   description: `Get started with the Airdrop.`,
   applicationName: 'Airdrop',
@@ -12,10 +12,16 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Airdrop',
     description: `Get started with the Airdrop.`,
-    // url: 'https://port-next-next-metadata-test-7xwyjq992lliq95b1a.sel4.cloudtype.app',
+    url: '/',
     siteName: 'Airdrop - Come and Play!',
-    images: [{ url: 'https://port-next-next-metadata-test-7xwyjq992lliq95b1a.sel4.cloudtype.app/og.png' }]
+    images: [{ url: '/og.png' }]
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Airdrop',
+    description: `Get started with the Airdrop.`,
+    images: [{ url: '/og.png' }]
+  }
 };
 
 export default function Page() {

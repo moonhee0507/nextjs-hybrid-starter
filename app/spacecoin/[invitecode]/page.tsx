@@ -10,6 +10,7 @@ export async function generateMetadata(
   const invitecode = params.invitecode;
 
   return {
+    metadataBase: new URL('https://thankful-plant-0a508e91e.1.azurestaticapps.net'),
     title: `[Spacecoin] Airdrop - Come and Play!`,
     description: `Please enter the invitation code ${invitecode}.`,
     applicationName: 'Application Name',
@@ -17,7 +18,7 @@ export async function generateMetadata(
     openGraph: {
       title: `[Spacecoin] Airdrop - Come and Play!`,
       description: `Please enter the invitation code ${invitecode}.`,
-      // url: `https://port-next-next-metadata-test-7xwyjq992lliq95b1a.sel4.cloudtype.app/spacecoin/${invitecode}`,
+      url: `/spacecoin/${invitecode}`,
       siteName: '[Spacecoin] Airdrop - Come and Play!',
       images: [{ url: 'https://files.gluwa.com/media/meta/spacecoin-org/20241030/meta-image.png' }]
     },
@@ -25,7 +26,7 @@ export async function generateMetadata(
       card: "summary_large_image",
       site: "@_spacecoin",
       creator: "@_spacecoin",
-      images: "https://files.gluwa.com/media/meta/spacecoin-org/20241030/meta-image.png"
+      images: 'https://files.gluwa.com/media/meta/spacecoin-org/20241030/meta-image.png'
     },
   }
 }
