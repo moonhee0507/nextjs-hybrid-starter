@@ -20,13 +20,13 @@ export async function generateMetadata(
       description: `Please enter the invitation code ${invitecode}.`,
       url: `/spacecoin/${invitecode}`,
       siteName: '[Spacecoin] Airdrop - Come and Play!',
-      images: [{ url: 'https://files.gluwa.com/media/meta/spacecoin-org/20241030/meta-image.png' }]
+      images: [{ url: '/og-spacecoin.png' }]
     },
     twitter: {
       card: "summary_large_image",
       site: "@_spacecoin",
       creator: "@_spacecoin",
-      images: 'https://files.gluwa.com/media/meta/spacecoin-org/20241030/meta-image.png'
+      images: '/og-spacecoin.png'
     },
   }
 }

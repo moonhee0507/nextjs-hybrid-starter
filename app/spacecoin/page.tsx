@@ -9,13 +9,13 @@ export const metadata: Metadata = {
     description: `Get started with the [Spacecoin] Airdrop.`,
     url: '/spacecoin',
     siteName: '[Spacecoin] Airdrop - Come and Play!',
-    images: [{ url: 'https://files.gluwa.com/media/meta/spacecoin-org/20241030/meta-image.png' }]
+    images: [{ url: '/og-spacecoin.png' }]
   },
   twitter: {
     card: 'summary_large_image',
     title: '[Spacecoin] Airdrop - Come and Play!',
     description: `Get started with the [Spacecoin] Airdrop.`,
-    images: [{ url: 'https://files.gluwa.com/media/meta/spacecoin-org/20241030/meta-image.png' }]
+    images: [{ url: '/og-spacecoin.png' }]
   },
 };
 
